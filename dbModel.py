@@ -5,7 +5,7 @@ from flask_migrate import Migrate, MigrateCommand
 
 app = Flask(__name__)
 app.config[
-    'SQLALCHEMY_DATABASE_URI'] = 'postgres://bonsbgzeqfgdil:92116afeb5fa490d9885ce0b3a88979856fac656b4882884ca7d5e119a021973@ec2-54-225-68-71.compute-1.amazonaws.com:5432/d4d0dvernmmnef'
+    'SQLALCHEMY_DATABASE_URI'] = 'postgres://onjbqxeeaaysxv:39b665c3775984732b26fa04e72161bc7bc31fdc22d62f2762d85a02486ee8eb@ec2-23-21-220-48.compute-1.amazonaws.com:5432/dcb970e2t38qli'
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
